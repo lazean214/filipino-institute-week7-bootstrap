@@ -1,0 +1,87 @@
+.wrapper {
+    background-image: url(../images/01_bg.9b6e3fcc.png);
+    color: #2c3e50;
+    background-size: 100%;
+    overflow: hidden;
+    background-repeat: repeat;
+
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+
+    &:hover {
+        color: orange !important;
+    }
+}
+
+.dropdown-menu {
+    background-color: #222222;
+}
+header {
+    height: 100vh;
+    // background-color: orange;
+    background-image: url(https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+.page-header {
+    border-left: 5px solid orange;
+    padding-left: 1.5rem;
+}
+
+p {
+    line-height: 1.7rem;
+}
+
+#about {
+    background-image: url(https://images.unsplash.com/photo-1511920170033-f8396924c348?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80);
+    background-position: center left;
+    background-size: cover;
+    // min-height: 400px;
+
+    .page-header {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+}
+
+.parallax {
+    background-image: url(https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+    background-attachment: fixed;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+
+    h3 {
+        border-left: 5px solid orange;
+        padding-left: 1rem;
+        font-size: 1.2rem;
+    }
+
+    ul {
+        padding: 0;
+
+        li {
+            list-style-type: none;
+        }
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    #about {
+        height: 500px;
+    }
+}
